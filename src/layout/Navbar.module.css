@@ -1,0 +1,20 @@
+.nav {
+    background: rgb(123, 153, 218);
+    margin-top: 0;
+    padding: 0.1%;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.item {
+    margin-right: 1em;
+}
+
+.item a{
+    color:#fff;
+    text-decoration: none;
+}

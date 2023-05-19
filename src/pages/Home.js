@@ -1,6 +1,6 @@
 export function Home(){
     return(
-        <div>
+        <div class="container">
             <h1>Home</h1>
             <p>Conteúdo da página</p>
         </div>

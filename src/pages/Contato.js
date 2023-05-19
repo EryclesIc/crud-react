@@ -1,6 +1,6 @@
 function Contato(){
     return(
-        <div>
+        <div class="container">
             <h1>Contato</h1>
             <p>Conteúdo da página</p>
         </div>
