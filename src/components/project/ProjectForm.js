@@ -27,11 +27,6 @@ function ProjectForm({btnText}){
         <form className={styles.form}>
             <Input type="text" text="Nome do projeto" name="name" placeholder="Insira o nome do projeto" />
             <Input type="number" text="Orçamento do projeto" name="name" placeholder="Insira o orçamento do projeto" />
-            {/* {categories.map((categories) => (
-                    <span value={categories.id} key={categories.id}>
-                        {categories.name}
-                    </span>
-                ))} */}
             <Select name="category_id" text="Selecione a categoria" options={categories} />
             <SubmitButoon text={btnText} />
         </form>
